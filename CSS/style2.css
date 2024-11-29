@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background-color: wheat;
+    height: 50vh;
+}
+
+.interface{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 5px 4%;
+    background-color: rgb(5, 78, 3)
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #cec8c8;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff1aad;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .contato button:hover{
+    box-shadow: 0px 0px 8px;
+}
+
+
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+img{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+p{
+    font-size: 25px;
+}
+
+div.container2{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+
+footer{
+    background-color: green;
+    padding: 50px 4%;
+    text-align: center;
+}
